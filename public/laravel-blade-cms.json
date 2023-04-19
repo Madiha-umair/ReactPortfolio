@@ -1,0 +1,97 @@
+[
+{"type":"header","version":"5.1.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"laravel-blade-cms"},
+{"type":"table","name":"blogs","database":"laravel-blade-cms","data":
+[
+{"id":"1","title":"Unde vel id omnis libero et qui eius.","blog":"Aperiam et amet quia minima quos consequuntur eius. Dignissimos rerum numquam iure distinctio omnis amet reiciendis. Ea qui quia tempore veritatis qui sed sunt id.","image":null,"link":"http:\/\/kuphal.com\/impedit-qui-eveniet-sint-et-odit-velit","created_at":"2023-04-14 20:46:13","updated_at":"2023-04-14 20:46:13"},
+{"id":"2","title":"Repellendus officia aut facere a.","blog":"Quasi id iure blanditiis autem. Est provident harum beatae vitae praesentium. Omnis temporibus eum cum quam officiis quo.","image":null,"link":"http:\/\/oconnell.com\/","created_at":"2023-04-14 20:46:13","updated_at":"2023-04-14 20:46:13"},
+{"id":"3","title":"Possimus dicta mollitia saepe dolores ut facere.","blog":"Quaerat fuga aliquam alias ipsum. Perferendis nulla nihil voluptatibus nihil dolorum accusantium nisi. Perspiciatis praesentium quia perferendis officia et aut consequuntur.","image":null,"link":"http:\/\/collins.biz\/quia-dolor-quaerat-voluptatem-molestiae-facilis-facere.html","created_at":"2023-04-14 20:46:13","updated_at":"2023-04-14 20:46:13"},
+{"id":"4","title":"Ab incidunt qui voluptatem ut atque dolorem maiores fugit.","blog":"Corporis aut fugiat ipsa et. Ut est excepturi exercitationem fuga et dolorem ab. Voluptatem quia sit nobis dolor repellat.","image":null,"link":"http:\/\/www.ernser.com\/est-necessitatibus-illum-veritatis-quos","created_at":"2023-04-14 20:46:13","updated_at":"2023-04-14 20:46:13"}
+]
+}
+,{"type":"table","name":"experiences","database":"laravel-blade-cms","data":
+[
+{"id":"1","title":"Assumenda at consequatur non consectetur.","company":"Omnis facere iste placeat minus.","start":"2023","end":"1980","detail":"Laudantium vero non possimus minus molestiae ut est. Hic enim omnis molestiae eum non. Sed est quia dolorem rerum et a itaque omnis.","location":"Et non ab provident quasi et nulla est.","created_at":"2023-04-14 20:46:13","updated_at":"2023-04-14 20:46:13"},
+{"id":"2","title":"Necessitatibus maxime praesentium libero explicabo nisi.","company":"Placeat in quaerat libero.","start":"1988","end":"2010","detail":"Praesentium dicta dolorem molestias consequuntur. Ullam repellendus culpa eum assumenda. Ut quis dolor quis laboriosam.","location":"Quod error vero necessitatibus voluptates quidem.","created_at":"2023-04-14 20:46:13","updated_at":"2023-04-14 20:46:13"},
+{"id":"3","title":"Ipsam odio minima quibusdam praesentium eius est ea.","company":"Odit dolor alias fugiat quis.","start":"2019","end":"2007","detail":"Exercitationem at ducimus qui consequuntur modi enim perferendis id. Impedit eos dolorem hic dolor. Non voluptate quia dicta saepe facere at.","location":"Quis ut quia laborum assumenda.","created_at":"2023-04-14 20:46:13","updated_at":"2023-04-14 20:46:13"},
+{"id":"4","title":"Unde amet possimus dolorum qui.","company":"Ducimus doloribus dolor laboriosam quo.","start":"1972","end":"2020","detail":"Deleniti sapiente totam architecto qui ipsam dolore rerum et. Et pariatur veritatis sed aut assumenda nulla. Repudiandae recusandae aperiam sunt accusantium voluptatibus. Illo totam incidunt officia aut dignissimos quas et.","location":"Nostrum laboriosam qui autem eos dolor.","created_at":"2023-04-14 20:46:13","updated_at":"2023-04-14 20:46:13"}
+]
+}
+,{"type":"table","name":"failed_jobs","database":"laravel-blade-cms","data":
+[
+
+]
+}
+,{"type":"table","name":"migrations","database":"laravel-blade-cms","data":
+[
+{"id":"11","migration":"2014_10_12_000000_create_users_table","batch":"1"},
+{"id":"12","migration":"2014_10_12_100000_create_password_resets_table","batch":"1"},
+{"id":"13","migration":"2019_08_19_000000_create_failed_jobs_table","batch":"1"},
+{"id":"14","migration":"2019_12_14_000001_create_personal_access_tokens_table","batch":"1"},
+{"id":"15","migration":"2022_01_13_170756_create_projects_table","batch":"1"},
+{"id":"16","migration":"2022_01_13_191632_create_skills_table","batch":"1"},
+{"id":"17","migration":"2023_04_12_024821_create_qualifications_table","batch":"1"},
+{"id":"18","migration":"2023_04_13_164714_create_experiences_table","batch":"1"},
+{"id":"19","migration":"2023_04_14_000515_create_project_skill_table","batch":"1"},
+{"id":"20","migration":"2023_04_14_173000_create_blogs_table","batch":"1"}
+]
+}
+,{"type":"table","name":"password_resets","database":"laravel-blade-cms","data":
+[
+
+]
+}
+,{"type":"table","name":"personal_access_tokens","database":"laravel-blade-cms","data":
+[
+
+]
+}
+,{"type":"table","name":"projects","database":"laravel-blade-cms","data":
+[
+{"id":"5","title":"Online Gift Shop","live":null,"source":"https:\/\/github.com\/Madiha-umair\/GiftBasketShop","slug":"Click_To_See_GiftBasketShop","image":"projects\/FIABlkfnZAqFfLNeF6NpBfVK5IGlzerfJ53VFHS8.png","content":"A dynamic online gift basket shop application built using ASP.NET, Entity Framework, and code first techniques.","user_id":"2","created_at":"2023-04-14 22:02:51","updated_at":"2023-04-19 07:58:08"},
+{"id":"6","title":"HaveInn_Hotel","live":null,"source":"https:\/\/github.com\/Madiha-umair\/HaveInn_Hotel","slug":"ClickToSee_HaveInnHotel","image":"projects\/IkWIbvY0ljPwfkjL1crQYlSPw6Yzw63WoamNctRr.png","content":"A cutting-edge hotel management website application built using Node.js, CSS, Pug, and MongoDB.","user_id":"2","created_at":"2023-04-18 22:52:15","updated_at":"2023-04-19 07:53:37"},
+{"id":"7","title":"Healthy Life Style","live":null,"source":"https:\/\/github.com\/Madiha-umair\/HealthyLifeStyle","slug":"click_here_For_HealthyLifeStyle","image":"projects\/aSESU8oGHqxPx8NKQeUAFUciXHor0bm8XwciSEKv.png","content":"A simple yet powerful healthy lifestyle application built using Pug, CSS, JavaScript, and Node.js. The website leverages the power of two APIs, allowing users to access a wealth of information on various exercises and easily calculate their BMI and calorie requirements.","user_id":"3","created_at":"2023-04-19 07:19:33","updated_at":"2023-04-19 07:48:36"},
+{"id":"8","title":"Event Management Project","live":null,"source":"https:\/\/github.com\/Madiha-umair\/EventManagementProject","slug":"Click_Here_For_EventManagementProject","image":"projects\/mwh952Q3mTMQCURresaSWfsE7iuT5q592uFwNN0F.png","content":"An innovative event management application built using PHP, CSS, HTML, and MySQL. This dynamic website offers two interfaces - a user-friendly front-end for attendees to browse events, view event details, and submit contact forms, as well as a comprehensive back-end that provides administrators with the tools they need to manage events, attendees, and much more","user_id":"3","created_at":"2023-04-19 07:20:56","updated_at":"2023-04-19 07:45:34"}
+]
+}
+,{"type":"table","name":"project_skill","database":"laravel-blade-cms","data":
+[
+{"id":"1","project_id":"1","skill_id":"1","created_at":null,"updated_at":null},
+{"id":"2","project_id":"1","skill_id":"2","created_at":null,"updated_at":null},
+{"id":"3","project_id":"2","skill_id":"2","created_at":null,"updated_at":null},
+{"id":"4","project_id":"2","skill_id":"3","created_at":null,"updated_at":null},
+{"id":"5","project_id":"3","skill_id":"3","created_at":null,"updated_at":null},
+{"id":"6","project_id":"4","skill_id":"1","created_at":null,"updated_at":null},
+{"id":"7","project_id":"4","skill_id":"2","created_at":null,"updated_at":null}
+]
+}
+,{"type":"table","name":"qualifications","database":"laravel-blade-cms","data":
+[
+{"id":"7","degree":"Ontario Graduate Certificate","field":"Web Development","institute":"Humber College","location":"Toronto, Canada","started_at":"2022","ended_at":"Present","created_at":"2023-04-18 22:45:52","updated_at":"2023-04-18 22:45:52"},
+{"id":"6","degree":"Masters of Engineering","field":"Computer Systems","institute":"NED University Of Engineering & Technology","location":"Karachi, Pakistan.","started_at":"2012","ended_at":"2014","created_at":"2023-04-18 22:43:35","updated_at":"2023-04-18 22:43:35"},
+{"id":"5","degree":"Bachelor of Engineering","field":"Computer & Information Systems","institute":"NED University Of Engineering & Technology","location":"Karachi, Pakistan.","started_at":"2008","ended_at":"2011","created_at":"2023-04-18 22:42:12","updated_at":"2023-04-18 22:42:12"}
+]
+}
+,{"type":"table","name":"skills","database":"laravel-blade-cms","data":
+[
+{"id":"6","title":"Asp.Net","image":"skills\/Ze4lGI6Nmd5Uo1QfA85RufpmqHN2c7yVfKiLadwd.jpg","created_at":"2023-04-18 22:08:18","updated_at":"2023-04-18 22:36:18"},
+{"id":"7","title":"PHP","image":"skills\/sQYzXECvnNb5Xghy5HYBNtpgIScEPBT81AbzVfmA.jpg","created_at":"2023-04-18 22:08:37","updated_at":"2023-04-18 22:29:04"},
+{"id":"9","title":"NodeJS","image":"skills\/OAD9miR2K1dFjEqwVQy1sGn7caGt1p3WeGMyqL1t.jpg","created_at":"2023-04-18 22:09:07","updated_at":"2023-04-18 22:29:25"},
+{"id":"10","title":"Html","image":"skills\/ARZc4aplW8Zv3YPnlEG1LZXDeFk81K9gTUrJQG8d.jpg","created_at":"2023-04-18 22:09:19","updated_at":"2023-04-18 22:29:50"},
+{"id":"11","title":"Laravel","image":"skills\/njTErauiluww2LWYbbGG8W3UaL5dX6CeNzLU24bS.jpg","created_at":"2023-04-18 22:09:32","updated_at":"2023-04-18 22:30:02"},
+{"id":"12","title":"React","image":"skills\/XXwLIbX6xOZg6ieoKh3fbiLzN2OCL7ZJunBwvIN8.jpg","created_at":"2023-04-18 22:09:44","updated_at":"2023-04-18 22:30:15"},
+{"id":"14","title":"MongoDb","image":"skills\/tcqTC8jZmxEfSOneFHVw5j0XfvhAN9sdcj6YmtBK.jpg","created_at":"2023-04-18 22:10:18","updated_at":"2023-04-18 22:36:04"},
+{"id":"15","title":"JavaScript","image":"skills\/zz9pT5zGSoZgk85efXnVSp5wnhUUVwHI6Lwb23Qb.jpg","created_at":"2023-04-18 22:10:41","updated_at":"2023-04-18 22:31:01"},
+{"id":"16","title":"Bootstrap","image":"skills\/mIAWfGd9Ni5f9YoSqI4RhP23G8LO8wG1D1GR4dUQ.jpg","created_at":"2023-04-18 22:36:45","updated_at":"2023-04-18 22:37:50"},
+{"id":"17","title":"Figma","image":"skills\/Vil0XmhvRIGOZhjhkfr0y9MHCJa4V1ew68zHJ6aG.jpg","created_at":"2023-04-18 22:36:51","updated_at":"2023-04-18 22:38:02"},
+{"id":"19","title":"CSS","image":"skills\/9ZKI8FTLS4d3twe2PVCBf3D2eVkDFUxA5mkAi6hV.jpg","created_at":"2023-04-18 22:53:59","updated_at":"2023-04-18 22:54:53"}
+]
+}
+,{"type":"table","name":"users","database":"laravel-blade-cms","data":
+[
+{"id":"1","first":"Mavis","last":"Boyle","email":"steuber.florencio@example.com","email_verified_at":"2023-04-14 20:46:12","password":"$2y$10$W5XDxct6IEbPRLq4pB6iwucb6kjLGHctTbvPqMNOuBfADhnXQMew6","remember_token":"p70kwBQmQM","created_at":"2023-04-14 20:46:12","updated_at":"2023-04-14 20:46:12"},
+{"id":"2","first":"Otilia","last":"Cummings","email":"dibbert.larissa@example.net","email_verified_at":"2023-04-14 20:46:12","password":"$2y$10$3I6jerhRiNhJKFWyGd4VdOXB9GceWptRQr.Hk5gberHKN8FmLN7US","remember_token":"z5nqmB8yBC","created_at":"2023-04-14 20:46:12","updated_at":"2023-04-14 20:46:12"},
+{"id":"3","first":"Madiha","last":"Umair","email":"madiha.altaf@yahoo.com","email_verified_at":null,"password":"$2y$10$6JDAUOiC5pBaeAYyU4FmfuHCsgPoFqdvnNpdZxLJFB.WkVuGvlq16","remember_token":null,"created_at":"2023-04-18 22:38:33","updated_at":"2023-04-18 22:38:33"}
+]
+}
+]
