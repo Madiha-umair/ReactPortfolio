@@ -1,17 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Zilla+Slab:wght@400;700&display=swap');
+
 /* Header styles */
 #header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #f1f1f1;
   }
-  
-  #site-name a {
+  body{
+    font-family: 'Libre Baskerville', serif;
+  }
+  h2 {
+    margin-left: 4rem;
+  }
+  #site-name a{
     text-decoration: none;
     color: #000;
   }
-  
+  #header, #footer{
+    background-color: #eed5ec;
+  }
   nav ul {
     display: flex;
     justify-content: center;
@@ -20,37 +28,24 @@
     padding: 0;
     list-style: none;
   }
-  
   nav ul li:not(:last-child) {
     margin-right: 2rem;
   }
-  
   nav ul li a {
     text-decoration: none;
     color: #000;
     font-weight: bold;
   }
-  
   nav ul li a:hover {
-    color: #2c3e50;
+    color: #106dca;
   }
-  
+
   /* Education styles */
   ul {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     list-style: none;
   }
-  
-  li {
-    margin-bottom: 1rem;
-  }
-  
-  li p {
-    margin: 0;
-  }
-  
-
 
   /* Skills styles */
 
@@ -58,22 +53,319 @@
 img {
     margin-left: 1rem;
   }
+
+/* Style for the li elements */
+li {
+  display: inline-block; 
+ /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);  Add box shadow */
+  padding: 1rem; 
+  margin: 1rem; 
+}
+#project_container li:hover, #skill_container li:hover {
+  transform: scale(1.1); /* Increase size by 10% */
+}
+
+/* Projects styles */
+li p:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+/* Styles for about page */
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  /*align-items: center;*/
+  gap:440px;
+  margin-top: 30px;
+}
+#about-text, #about-text-cont{
+  font-size: 12px;
+}
+
+/* Styles for social media icon */
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  margin-right: 1rem;
+  color: #333;
+  font-size: 2rem;
+}
+.social-icons i {
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+.social-icons i:hover {
+  color: #007bff;
+}
+
+/* Horizontal line */
+#line {
+  width: 500px;
+  margin: 50px auto;
+  border: none;
+  border-top: 2px solid #333;
+}
+
+/* Styles for qualification */
+
+#qualification_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 20px;
+  align-items: center;
+}
+#qualification_container ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#qualification_container li {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+#qualification_container li p {
+  margin: 0;
+}
+#qualification_container li:nth-child(1) p:nth-child(1) {
+  grid-row: 1 / span 1;
+}
+#qualification_container li:nth-child(1) p:nth-child(2) {
+  grid-row: 2 / span 1;
+  margin-right: 140px;
+}
+#qualification_container li p:nth-child(2) {
+  grid-row: 2 / span 2;
+}
+#qualification_container li p:nth-child(3) {
+  grid-column: 2 / span 2;
+}
+#qualification_container li p:nth-child(4) {
+  grid-column: 2 / span 2;
+}
+#qualification_container li p:nth-child(5) {
+  grid-column: 2 / span 2;
+}
+
+/* Styles for Projects */
+
+#project_container li:hover a,
+#project_container li:hover p {
+  display: block;
+  text-decoration: none;
+}
+#project_container, #skill_container {
+  display: grid;
+  justify-items: center;
+}
+
+#project_container ul, #skill_container ul {
+  list-style: none;
+ /* margin: 2rem;*/
+  padding: 0;
+  display: grid;
+  gap: 20px;
+}
+#project_container ul{
+  grid-template-columns: repeat(2, 1fr);
+}
+#skill_container ul {
+  grid-template-columns: repeat(5, 1fr);
+}
+#project_container li, #skill_container li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+#project_container li img{
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  height: auto;
+}
+#project_container li a,
+#project_container li p {
+  display: none;
+}
+#project_container li:hover a,
+#project_container li:hover p {
+  display: block;
+  color: #ffffff;
+  font-size: 12px;
+  position: absolute;
+}
+#project_container li:hover h3 a:nth-child(1)  {
+  top: 10%;
+  left: 36%;
+}
+#project_container li:hover p {
+  top: 30%;
+  left: 5%;
+  text-align: left;
+}
+#project_container li:hover a {
+  top: 80%;
+  left: 5%;
+}
+#project_container li:hover{
+  background-color: black;
+}
+#project_container li:hover img {
+  display: none;
+}
+
+/* Styles for footer */
+footer{
+  margin-top: 2rem;
+  text-align: center;
+}
+footer p{
+  margin-bottom: 0;
+}
+
+ /* Style for the desktop navigation menu */
+ .desktop-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.desktop-menu li {
+  margin-left: 30px;
+}
+
+.desktop-menu a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Style for the mobile menu toggle button */
+.mobile-menu-toggle {
+  display: none;
+}
+
+/* Show the mobile menu when the mobile menu toggle button is clicked */
+.mobile-menu-toggle:checked + .mobile-menu {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .about {
+    gap:270px;
+  }
+}
+@media (max-width: 900px) {
+  .about {
+    gap:150px;
+  }
+}
+
+/* Style for the mobile navigation menu */
+@media screen and (max-width: 767px) {
   
-  /* Style for the li elements */
-  li {
-    display: inline-block; /* Make li inline-block */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add box shadow */
-    padding: 1rem; /* Add padding */
-    margin: 1rem; /* Add margin */
+/* Style for the mobile navigation menu */
+.mobile-menu {
+  display: flex;
+  width: 160px;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 9%;
+  left: 60%;
+  background-color: #000000;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+
+.mobile-menu ul {
+list-style: none;
+display: block;
+margin: 0 0 0 17px;
+padding: 0;
+width: 150px;
+}
+
+.mobile-menu li {
+margin: 0;
+width: 80%;
+text-align: center;
+padding: 5px;
+}
+.mobile-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-weight: normal;
+}
+
+  /* Hide the desktop navigation menu on smaller screens */
+  .desktop-menu {
+    display: none;
   }
-  li:hover {
-    transform: scale(1.1); /* Increase size by 10% */
+  /* Show the mobile menu toggle button on smaller screens */
+  .mobile-menu-toggle {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    position: absolute;
+    left:70%;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    /*margin: 10px 0;*/
   }
-
-
-
-
-  /* Projects styles */
-  li p:not(:last-child) {
-    margin-bottom: 0.5rem;
+  #skill_container ul {
+    grid-template-columns: repeat(3, 1fr);
   }
+  h2 {
+    margin-left: 2rem;
+  }
+  .about {
+    gap:70px;
+  }
+}
+
+@media (max-width: 480px) {
+  #skill_container ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #site-name a {
+    font-size: 0.8rem;
+  }
+  h2 {
+    margin-left: 1rem;
+  }
+  .about {
+    gap:50px;
+  }
+  nav ul li:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+  nav ul li {
+    margin:5px;
+    font-size: 12px;
+    padding:5px;
+  }
+  #project_container ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #project_container li, #skill_container li{
+  margin:0;
+  }
+}

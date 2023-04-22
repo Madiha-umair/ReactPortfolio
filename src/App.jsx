@@ -24,11 +24,9 @@ export default function App() {
           <section id="skills">
           <Skills/>
           </section>
-        </main>
-       
+        </main>    
         <Footer />
       </div>
-
   );
 }
 

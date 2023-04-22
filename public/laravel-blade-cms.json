@@ -49,9 +49,9 @@
 ,{"type":"table","name":"projects","database":"laravel-blade-cms","data":
 [
 {"id":"5","title":"Online Gift Shop","live":null,"source":"https:\/\/github.com\/Madiha-umair\/GiftBasketShop","slug":"Click_To_See_GiftBasketShop","image":"projects\/FIABlkfnZAqFfLNeF6NpBfVK5IGlzerfJ53VFHS8.png","content":"A dynamic online gift basket shop application built using ASP.NET, Entity Framework, and code first techniques.","user_id":"2","created_at":"2023-04-14 22:02:51","updated_at":"2023-04-19 07:58:08"},
-{"id":"6","title":"HaveInn_Hotel","live":null,"source":"https:\/\/github.com\/Madiha-umair\/HaveInn_Hotel","slug":"ClickToSee_HaveInnHotel","image":"projects\/IkWIbvY0ljPwfkjL1crQYlSPw6Yzw63WoamNctRr.png","content":"A cutting-edge hotel management website application built using Node.js, CSS, Pug, and MongoDB.","user_id":"2","created_at":"2023-04-18 22:52:15","updated_at":"2023-04-19 07:53:37"},
+{"id":"6","title":"HaveInn Hotel","live":null,"source":"https:\/\/github.com\/Madiha-umair\/HaveInn_Hotel","slug":"ClickToSee_HaveInnHotel","image":"projects\/IkWIbvY0ljPwfkjL1crQYlSPw6Yzw63WoamNctRr.png","content":"A cutting-edge hotel management website application built using Node.js, CSS, Pug, and MongoDB.","user_id":"2","created_at":"2023-04-18 22:52:15","updated_at":"2023-04-19 07:53:37"},
 {"id":"7","title":"Healthy Life Style","live":null,"source":"https:\/\/github.com\/Madiha-umair\/HealthyLifeStyle","slug":"click_here_For_HealthyLifeStyle","image":"projects\/aSESU8oGHqxPx8NKQeUAFUciXHor0bm8XwciSEKv.png","content":"A simple yet powerful healthy lifestyle application built using Pug, CSS, JavaScript, and Node.js. The website leverages the power of two APIs, allowing users to access a wealth of information on various exercises and easily calculate their BMI and calorie requirements.","user_id":"3","created_at":"2023-04-19 07:19:33","updated_at":"2023-04-19 07:48:36"},
-{"id":"8","title":"Event Management Project","live":null,"source":"https:\/\/github.com\/Madiha-umair\/EventManagementProject","slug":"Click_Here_For_EventManagementProject","image":"projects\/mwh952Q3mTMQCURresaSWfsE7iuT5q592uFwNN0F.png","content":"An innovative event management application built using PHP, CSS, HTML, and MySQL. This dynamic website offers two interfaces - a user-friendly front-end for attendees to browse events, view event details, and submit contact forms, as well as a comprehensive back-end that provides administrators with the tools they need to manage events, attendees, and much more","user_id":"3","created_at":"2023-04-19 07:20:56","updated_at":"2023-04-19 07:45:34"}
+{"id":"8","title":"Event Management","live":null,"source":"https:\/\/github.com\/Madiha-umair\/EventManagementProject","slug":"Click_Here_For_EventManagementProject","image":"projects\/mwh952Q3mTMQCURresaSWfsE7iuT5q592uFwNN0F.png","content":"An innovative event management application built using PHP, CSS, HTML, and MySQL. This dynamic website offers two interfaces - a user-friendly front-end for attendees to browse events & a comprehensive back-end.","user_id":"3","created_at":"2023-04-19 07:20:56","updated_at":"2023-04-19 07:45:34"}
 ]
 }
 ,{"type":"table","name":"project_skill","database":"laravel-blade-cms","data":
@@ -83,8 +83,7 @@
 {"id":"14","title":"MongoDb","image":"skills\/tcqTC8jZmxEfSOneFHVw5j0XfvhAN9sdcj6YmtBK.jpg","created_at":"2023-04-18 22:10:18","updated_at":"2023-04-18 22:36:04"},
 {"id":"15","title":"JavaScript","image":"skills\/zz9pT5zGSoZgk85efXnVSp5wnhUUVwHI6Lwb23Qb.jpg","created_at":"2023-04-18 22:10:41","updated_at":"2023-04-18 22:31:01"},
 {"id":"16","title":"Bootstrap","image":"skills\/mIAWfGd9Ni5f9YoSqI4RhP23G8LO8wG1D1GR4dUQ.jpg","created_at":"2023-04-18 22:36:45","updated_at":"2023-04-18 22:37:50"},
-{"id":"17","title":"Figma","image":"skills\/Vil0XmhvRIGOZhjhkfr0y9MHCJa4V1ew68zHJ6aG.jpg","created_at":"2023-04-18 22:36:51","updated_at":"2023-04-18 22:38:02"},
-{"id":"19","title":"CSS","image":"skills\/9ZKI8FTLS4d3twe2PVCBf3D2eVkDFUxA5mkAi6hV.jpg","created_at":"2023-04-18 22:53:59","updated_at":"2023-04-18 22:54:53"}
+{"id":"17","title":"Figma","image":"skills\/Vil0XmhvRIGOZhjhkfr0y9MHCJa4V1ew68zHJ6aG.jpg","created_at":"2023-04-18 22:36:51","updated_at":"2023-04-18 22:38:02"}
 ]
 }
 ,{"type":"table","name":"users","database":"laravel-blade-cms","data":

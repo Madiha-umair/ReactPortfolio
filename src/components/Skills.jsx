@@ -42,9 +42,9 @@ export default function Skills() {
   }, []);
 
   return (
-    <div>
+    <div >
       <h2>Skills</h2>
-
+    <div id="skill_container">
       <ul>
         {skills.map((skill, index) => (
           <li key={index}>
@@ -60,6 +60,7 @@ export default function Skills() {
           </li>
         ))}
       </ul>
+      </div>
     </div>
   );
 }

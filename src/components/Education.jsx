@@ -23,19 +23,19 @@ export default function Education() {
       }, []);
 
     return (
-        <div>
+        <div id="qualification_container">
         <h2>Qualification</h2>
-  
         <ul>
           {education.map((qualification, index) => (
             <li key={index}>
              <p> {qualification.field}</p>
              <p> {qualification.degree}</p>
-             <p> {qualification.institute}</p>
              <p> {qualification.location}</p>
              <p> {qualification.started_at} - {qualification.ended_at}</p>
+             <p> {qualification.institute}</p>
            </li>
           ))}
+          <hr id="line" />
         </ul>
       </div>
     );

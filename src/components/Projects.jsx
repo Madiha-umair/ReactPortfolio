@@ -1,16 +1,16 @@
 import { useState, useEffect } from "react";
-import haveinnImage from "../assets/images/HaveInnHotel.png";
-import eventmanagementImage from "../assets/images/EventManagement.png";
-import healthylifestyleImage from "../assets/images/HealthyLifeStyle.png";
-import giftshopImage from "../assets/images/Giftshop.png";
+import haveinnImage from "../assets/images/HaveInn Hotel.png";
+import eventmanagementImage from "../assets/images/Event Management.png";
+import healthylifestyleImage from "../assets/images/Healthy Life Style.png";
+import giftshopImage from "../assets/images/Online Gift Shop.png";
 
 export default function Project() {
     const [project, setProject] = useState([]);
     const imageMap = {
-      HaveInnHotel: haveinnImage,
-      EventManagement: eventmanagementImage,
-      HealthyLifeStyle: healthylifestyleImage,
-      Giftshop: giftshopImage
+      "HaveInn Hotel": haveinnImage,
+      "Event Management": eventmanagementImage,
+      "Healthy Life Style": healthylifestyleImage,
+      "Online Gift Shop": giftshopImage
     };
 
     useEffect(() => {
@@ -33,26 +33,26 @@ export default function Project() {
     return (
         <div>
         <h2>Projects</h2>
-  
+        <div id="project_container">
         <ul>
           {project.map((projectWork, index) => (
             <li key={index}>
-              <p>{projectWork.title}</p>
-              <p>{projectWork.source}</p>
+              <h3><a href={projectWork.source}>{projectWork.title}</a></h3>
               <p>{projectWork.content}</p>
-
-              {imageMap[projectWork.source] && (
+              <a href={projectWork.source}>{projectWork.source}</a>
+              {imageMap[projectWork.title] && (
                 <img
-                  src={imageMap[projectWork.source]}
+                  src={imageMap[projectWork.title]}
                   alt={projectWork.title}
-                  width="100"
-                  height="100"
+                  width="400"
+                  height="400"
                 />
               )}
             </li>
           ))}
         </ul>
-
+        <hr id="line" />
+        </div>
       </div>
     );
   }
