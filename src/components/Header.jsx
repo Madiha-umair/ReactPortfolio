@@ -19,10 +19,10 @@ export default function Header() {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#education">Qualification</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#education">Qualification</a>
           </li>
           <li>
             <a href="#skills">Skills</a>
@@ -40,13 +40,13 @@ export default function Header() {
               <a href="#about">About</a>
             </li>
             <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
               <a href="#education">Qualification</a>
             </li>
             <li>
               <a href="#skills">Skills</a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
             </li>
           </ul>
         </nav>

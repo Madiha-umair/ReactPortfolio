@@ -15,11 +15,11 @@ export default function App() {
           <section id="about">
           <About/>
           </section>
-          <section id="education">
-          <Education/>
-          </section>
           <section id="projects">
           <Projects/>
+          </section>
+          <section id="education">
+          <Education/>
           </section>
           <section id="skills">
           <Skills/>
