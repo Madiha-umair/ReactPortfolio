@@ -10,7 +10,7 @@ import bootStrapImage from "../assets/images/Bootstrap.jpg";
 import nodejsImage from "../assets/images/NodeJS.jpg";
 import mongodbImage from "../assets/images/MongoDb.jpg";
 import figmaImage from "../assets/images/Figma.jpg";
-import aspImage from "../assets/images/ASP.Net.jpg";
+import aspImage from "../assets/images/Asp.Net.jpg";
 
 
 export default function Skills() {
