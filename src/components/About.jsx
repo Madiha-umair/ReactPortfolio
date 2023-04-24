@@ -10,8 +10,8 @@ export default function About() {
         <img src={myImage} alt="My Image" width= "200" height="200" />
         </div>
         <div>
-        <h1 className="">Hi, I'm Madiha ...</h1>
-        <h1 className=""> Full-Stack Developer!</h1>
+        <h1>Hi, I'm Madiha ...</h1>
+        <h1> Full-Stack Developer!!</h1>
         <p id="about-text">I am passionate about coding and love to build things that can help people.</p>
         <p id="about-text-cont">I am always looking for new challenges and opportunities to learn and grow as a developer.</p>
         <button class="downloadbtn">
