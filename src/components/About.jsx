@@ -14,6 +14,11 @@ export default function About() {
         <h1 className=""> Full-Stack Developer!</h1>
         <p id="about-text">I am passionate about coding and love to build things that can help people.</p>
         <p id="about-text-cont">I am always looking for new challenges and opportunities to learn and grow as a developer.</p>
+        <button class="downloadbtn">
+          <a href="/public/resume/MadihaUmair-Resume.pdf" download="Madiha Resume">
+            Resume
+          </a>
+        </button>
       <div className="social-icons">
         <a href="https://www.facebook.com">
           <i className="fa fa-facebook"></i>

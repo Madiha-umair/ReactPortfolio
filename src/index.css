@@ -50,8 +50,22 @@
     list-style: none;
   }
 
-  /* Skills styles */
-
+  /* Download button styles */
+  
+  .downloadbtn {
+    width: 170px;
+    height: 42px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0;
+  }
+  .downloadbtn a {
+    text-decoration: none;
+    color: #eceed5;
+  }
+  
 /* Add margin to all images */
 img {
     margin-left: 1rem;
@@ -83,12 +97,12 @@ li p:not(:last-child) {
 
 .social-icons a {
   margin-right: 1rem;
-  color: #333;
+  color: #000;
   font-size: 2rem;
 }
 .social-icons i {
   font-size: 24px;
-  color: #333;
+  color: #000;
   transition: color 0.3s ease;
 }
 .social-icons i:hover {
@@ -278,7 +292,7 @@ align-items: center;
   }
 }
 
-/* Style for the mobile navigation menu */
+/*********** Style for screen size upto 767*************/
 @media screen and (max-width: 767px) {
   
 /* Style for the mobile navigation menu */
@@ -288,10 +302,9 @@ align-items: center;
   flex-direction: column;
   align-items: center;
   position: absolute;
-  top: 9%;
+  top:12%;
   left: 60%;
   background-color: #000000;
-  border: 1px solid #ccc;
   z-index: 1;
 }
 
@@ -310,42 +323,45 @@ text-align: center;
 padding: 5px;
 }
 .mobile-menu a {
-  color: white;
+  color: #eceed5;
   text-decoration: none;
   font-size: 16px;
   display: block;
-  padding: 10px;
-  border: 1px solid #ccc;
+  padding: 4px;
   font-weight: normal;
 }
 
-  /* Hide the desktop navigation menu on smaller screens */
-  .desktop-menu {
-    display: none;
-  }
-  /* Show the mobile menu toggle button on smaller screens */
-  .mobile-menu-toggle {
-    display: block;
-    color: #fff;
-    border: none;
-    position: absolute;
-    left:70%;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    /*margin: 10px 0;*/
-  }
-  #skill_container ul {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  h2 {
-    margin-left: 2rem;
-  }
-  .about {
-    gap:70px;
-  }
+/* Hide the desktop navigation menu on smaller screens */
+.desktop-menu {
+  display: none;
+}
+/* Show the mobile menu toggle button on smaller screens */
+.mobile-menu-toggle {
+  display: block;
+  color: #000;
+  border: none;
+  position: absolute;
+  left:70%;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  /*margin: 10px 0;*/
+}
+#skill_container ul {
+  grid-template-columns: repeat(3, 1fr);
+}
+h2 {
+  margin-left: 2rem;
+}
+.about {
+  gap:70px;
+}
+  #qualification_container li {
+  font-size: 15px;
+}
 }
 
+/*********** Style for screen size upto 480*************/
 @media (max-width: 480px) {
   #site-name a {
     font-size: 1rem;
@@ -375,6 +391,7 @@ padding: 5px;
   }
   img {
     margin-left: 0;
+    margin-top: 30px;
   }
   .about p, #site-name {
     display:none;
@@ -391,9 +408,13 @@ padding: 5px;
     font-size: 12px;
     padding:5px;
   }
+  .downloadbtn {
+    width: 120px;
+    height: 32px;
+  }
   .social-icons{
     position: relative;
-    top: 200px;
+    top: 240px;
     display: block;
   }
   #profileimg {
