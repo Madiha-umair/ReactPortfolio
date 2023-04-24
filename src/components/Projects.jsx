@@ -37,9 +37,6 @@ export default function Project() {
         <ul>
           {project.map((projectWork, index) => (
             <li key={index}>
-              <h3><a href={projectWork.source}>{projectWork.title}</a></h3>
-              <p>{projectWork.content}</p>
-              <a href={projectWork.source}>{projectWork.source}</a>
               {imageMap[projectWork.title] && (
                 <img
                   src={imageMap[projectWork.title]}
@@ -48,6 +45,9 @@ export default function Project() {
                   height="400"
                 />
               )}
+              <h3><a href={projectWork.source}>{projectWork.title}</a></h3>
+              <p>{projectWork.content}</p>
+              <a href={projectWork.source}>{projectWork.source}</a>
             </li>
           ))}
         </ul>

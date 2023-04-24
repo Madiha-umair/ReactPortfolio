@@ -13,12 +13,15 @@
   h2 {
     margin-left: 4rem;
   }
-  #site-name a{
+  #site-name-for-mobile {
+    display:none;
+  }
+  #site-name a, #site-name-for-mobile a{
     text-decoration: none;
     color: #000;
   }
-  #header, #footer{
-    background-color: #eed5ec;
+  #header{
+    background-color: #eceed5;
   }
   nav ul {
     display: flex;
@@ -53,17 +56,6 @@
 img {
     margin-left: 1rem;
   }
-
-/* Style for the li elements */
-li {
-  display: inline-block; 
- /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);  Add box shadow */
-  padding: 1rem; 
-  margin: 1rem; 
-}
-#project_container li:hover, #skill_container li:hover {
-  transform: scale(1.1); /* Increase size by 10% */
-}
 
 /* Projects styles */
 li p:not(:last-child) {
@@ -181,17 +173,29 @@ li p:not(:last-child) {
 #skill_container ul {
   grid-template-columns: repeat(5, 1fr);
 }
+#skill_container li {
+  display: inline-block; 
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);  /*Add box shadow */
+  font-size: 12px;
+}
 #project_container li, #skill_container li {
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 1rem; 
+  margin: 1rem; 
   text-align: center;
   position: relative;
+}
+#skill_container li img{
+  display: block; 
 }
 #project_container li img{
   display: block;
   margin: 10px auto;
   max-width: 100%;
   height: auto;
+}
+#project_container li:hover, #skill_container li img:hover {
+  transform: scale(1.1); /* Increase size by 10% */
 }
 #project_container li a,
 #project_container li p {
@@ -231,6 +235,7 @@ footer{
 }
 footer p{
   margin-bottom: 0;
+  font-size: 12px;
 }
 
  /* Style for the desktop navigation menu */
@@ -245,7 +250,6 @@ footer p{
 }
 
 .desktop-menu a {
-  color: #333;
   text-decoration: none;
   font-size: 16px;
 }
@@ -322,7 +326,6 @@ padding: 5px;
   /* Show the mobile menu toggle button on smaller screens */
   .mobile-menu-toggle {
     display: block;
-    background-color: #333;
     color: #fff;
     border: none;
     position: absolute;
@@ -344,19 +347,41 @@ padding: 5px;
 }
 
 @media (max-width: 480px) {
-  #skill_container ul {
-    grid-template-columns: repeat(2, 1fr);
-  }
   #site-name a {
     font-size: 1rem;
   }
   h2 {
-    margin-left: 1rem;
-    
+    font-size: 1.3em;
+  }
+  #header {
+    background-color: #000000;
+    color: #eceed5;
+    width: 400px;
+  }
+  .mobile-menu-toggle {
+    color: #eceed5;
+  }
+  body{
+    background-color: #eceed5;
+    margin: 0;
   }
   .about {
-  flex-direction: column-reverse;
-  justify-content:center;
+    flex-direction: column-reverse;
+    justify-content:center;
+    gap:20px;
+    margin:20px 0 0 31px;
+    align-items: center;
+    text-align: center;
+  }
+  img {
+    margin-left: 0;
+  }
+  .about p, #site-name {
+    display:none;
+  }
+  #site-name-for-mobile, #site-name-for-mobile a {
+    display:block;
+    color: #eceed5;
   }
   nav ul li:not(:last-child) {
     margin-right: 0.5rem;
@@ -366,10 +391,57 @@ padding: 5px;
     font-size: 12px;
     padding:5px;
   }
-  #project_container ul {
-    grid-template-columns: repeat(1, 1fr);
+  .social-icons{
+    position: relative;
+    top: 200px;
+    display: block;
   }
-  #project_container li, #skill_container li{
-  margin:0;
+  #profileimg {
+    position: relative;
+    top: -70px;
   }
-}
+  #line {
+    width: 250px;
+    margin: 0px auto 30px auto;
+    border-top: 1px solid #333;
+  }
+  /* Projects styles */
+  #project_container li a,
+  #project_container li p {
+    display: block;
+  }
+  #project_container li a{
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+  }
+  #project_container li p {
+    font-weight: 500;
+  }
+  #project_container li:hover, #skill_container li img:hover  {
+    transform: none; /* Increase size by 10% */
+  }
+  #project_container ul, #qualification_container ul{
+    margin-right: 2rem;
+    padding: 0;
+    display: block;
+  }
+  #project_container li, #qualification_container li  {
+    border: none;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);  /*Add box shadow */
+    width: 300px;
+    margin: 0 0 30px 35px;
+    display: block;
+    font-size: 13px;
+    font-family: 'Zilla Slab', serif;
+  }
+  #qualification_container li {
+    font-size: 15px;
+  }
+  #qualification_container li p:first-child {
+    font-weight: bold;
+  }
+  #skill_container ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  }

@@ -12,6 +12,9 @@ export default function Header() {
       <h2 id="site-name">
         <a href="/">Madiha Umair</a>
       </h2>
+      <h2 id="site-name-for-mobile">
+        <a href="/">MU</a>
+      </h2>
       {/* Display the desktop menu for larger screens */}
       <nav className="desktop-menu">
         <ul>

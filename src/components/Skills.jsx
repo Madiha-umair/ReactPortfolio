@@ -48,7 +48,6 @@ export default function Skills() {
       <ul>
         {skills.map((skill, index) => (
           <li key={index}>
-            {skill}
             {imageMap[skill] && (
               <img
                 src={imageMap[skill]}
@@ -57,6 +56,7 @@ export default function Skills() {
                 height="100"
               />
             )}
+            {skill}
           </li>
         ))}
       </ul>
