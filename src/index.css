@@ -28,7 +28,7 @@
     padding: 0;
     list-style: none;
   }
-  nav ul li:not(:last-child) {
+  nav ul li{
     margin-right: 2rem;
   }
   nav ul li a {
@@ -76,7 +76,7 @@ li p:not(:last-child) {
   flex-direction: row;
   justify-content:center;
   /*align-items: center;*/
-  gap:440px;
+  gap:200px;
   margin-top: 30px;
 }
 #about-text, #about-text-cont{
@@ -236,11 +236,12 @@ footer p{
  /* Style for the desktop navigation menu */
  .desktop-menu {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  
 }
 
 .desktop-menu li {
-  margin-left: 30px;
+  margin-left: 4rem;
 }
 
 .desktop-menu a {
@@ -248,6 +249,7 @@ footer p{
   text-decoration: none;
   font-size: 16px;
 }
+
 
 /* Style for the mobile menu toggle button */
 .mobile-menu-toggle {
@@ -346,13 +348,15 @@ padding: 5px;
     grid-template-columns: repeat(2, 1fr);
   }
   #site-name a {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   h2 {
     margin-left: 1rem;
+    
   }
   .about {
-    gap:50px;
+  flex-direction: column-reverse;
+  justify-content:center;
   }
   nav ul li:not(:last-child) {
     margin-right: 0.5rem;
