@@ -65,7 +65,7 @@
     text-decoration: none;
     color: #eceed5;
   }
-  
+
 /* Add margin to all images */
 img {
     margin-left: 1rem;
@@ -137,7 +137,11 @@ li p:not(:last-child) {
   grid-template-columns: 2fr 2fr;
   gap: 10px;
   padding: 10px;
+  margin-bottom: 40px;
   align-items: center;
+}
+#qualification_container li:last-child {
+  margin-bottom: 0;
 }
 #qualification_container li p {
   margin: 0;
@@ -147,7 +151,7 @@ li p:not(:last-child) {
 }
 #qualification_container li:nth-child(1) p:nth-child(2) {
   grid-row: 2 / span 1;
-  margin-right: 140px;
+  margin-right: 137px;
 }
 #qualification_container li p:nth-child(2) {
   grid-row: 2 / span 2;
@@ -208,7 +212,7 @@ li p:not(:last-child) {
   max-width: 100%;
   height: auto;
 }
-#project_container li:hover, #skill_container li img:hover {
+#project_container li:hover, #skill_container li img:hover, .downloadbtn:hover {
   transform: scale(1.1); /* Increase size by 10% */
 }
 #project_container li a,
