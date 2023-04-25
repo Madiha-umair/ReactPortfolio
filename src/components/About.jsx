@@ -18,7 +18,7 @@ export default function About() {
           <a href="https://drive.google.com/file/d/1Mo1YVh8InNJLt0ecIg16dIDu8EzD6ruB/view?usp=share_link" download="Madiha Resume">
             Resume  
           </a>
-        </button>https://drive.google.com/file/d/1Mo1YVh8InNJLt0ecIg16dIDu8EzD6ruB/view?usp=share_link
+        </button>
       <div className="social-icons">
         <a href="https://www.facebook.com">
           <i className="fa fa-facebook"></i>
