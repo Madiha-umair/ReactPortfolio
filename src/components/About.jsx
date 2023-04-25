@@ -15,10 +15,10 @@ export default function About() {
         <p id="about-text">I am passionate about coding and love to build things that can help people.</p>
         <p id="about-text-cont">I am always looking for new challenges and opportunities to learn and grow as a developer.</p>
         <button class="downloadbtn">
-          <a href="/resume/MadihaUmair-Resume.pdf" download="Madiha Resume">
+          <a href="https://drive.google.com/file/d/1Mo1YVh8InNJLt0ecIg16dIDu8EzD6ruB/view?usp=share_link" download="Madiha Resume">
             Resume  
           </a>
-        </button>
+        </button>https://drive.google.com/file/d/1Mo1YVh8InNJLt0ecIg16dIDu8EzD6ruB/view?usp=share_link
       <div className="social-icons">
         <a href="https://www.facebook.com">
           <i className="fa fa-facebook"></i>
