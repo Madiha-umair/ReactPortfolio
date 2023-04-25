@@ -221,13 +221,14 @@ margin-top: 55px;
 #project_container li a,
 #project_container li p {
   display: none;
+  position: static; 
 }
 #project_container li:hover a,
 #project_container li:hover p {
   display: block;
   color: #ffffff;
   font-size: 12px;
-  position: absolute;
+  position: static; 
 }
 #project_container li:hover h3 a:nth-child(1)  {
   top: 10%;
@@ -437,36 +438,46 @@ h2 {
     margin: 0px auto 30px auto;
     border-top: 1px solid #333;
   }
-  /* Projects styles */
-  #project_container li a,
-  #project_container li p {
-    display: block;
-  }
-  #project_container li a{
-    font-weight: 700;
-    color: #000;
-    text-decoration: none;
-  }
-  #project_container li p {
-    font-weight: 500;
-  }
-  #project_container li:hover, #skill_container li img:hover  {
-    transform: none; /* Increase size by 10% */
-  }
-  #project_container ul, #qualification_container ul{
-    margin-right: 2rem;
-    padding: 0;
-    display: block;
-  }
-  #project_container li, #qualification_container li  {
-    border: none;
-    box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);  /*Add box shadow */
-    width: 300px;
-    margin: 0 0 30px 35px;
-    display: block;
-    font-size: 13px;
-    font-family: 'Zilla Slab', serif;
-  }
+   /* Projects styles */
+   #project_container li a,
+   #project_container li p {
+     display: block;
+   }
+   #project_container li a{
+     font-weight: 700;
+     color: #000;
+     text-decoration: none;
+   }
+   #project_container li p {
+     font-weight: 500;
+   }
+   #project_container li:active a,
+   #project_container li:active p {
+     display: block;
+     text-decoration: none;
+   }
+   #project_container li:hover, #skill_container li img:hover  {
+     transform: none; /* Increase size by 10% */
+     background-color: transparent; /* remove the hover background color */
+   }
+   #project_container li:hover a,
+   #project_container li:hover p {
+     display: none; /* remove the hover text */
+   }
+   #project_container ul, #qualification_container ul{
+     margin-right: 2rem;
+     padding: 0;
+     display: block;
+   }
+   #project_container li, #qualification_container li  {
+     border: none;
+     box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);  /*Add box shadow */
+     width: 300px;
+     margin: 0 0 30px 35px;
+     display: block;
+     font-size: 13px;
+     font-family: 'Zilla Slab', serif;
+   }
   #qualification_container li {
     font-size: 15px;
   }
