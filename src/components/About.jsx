@@ -7,16 +7,16 @@ export default function About() {
         
       <div className="about">
         <div id="profileimg">
-        <img src={myImage} alt="My Image" width= "200" height="200" />
+        <img src={myImage} alt="My Image" width= "300" height="380" />
         </div>
-        <div>
-        <h1>Hi, I'm Madiha ...</h1>
+        <div id="about-text-portion">
+        <h1>Hi, I'm <span>Madiha ...</span></h1>
         <h1> Full-Stack Developer!!</h1>
         <p id="about-text">I am passionate about coding and love to build things that can help people.</p>
         <p id="about-text-cont">I am always looking for new challenges and opportunities to learn and grow as a developer.</p>
         <button class="downloadbtn">
-          <a href="/public/resume/MadihaUmair-Resume.pdf" download="Madiha Resume">
-            Resume
+          <a href="/resume/MadihaUmair-Resume.pdf" download="Madiha Resume">
+            Resume  
           </a>
         </button>
       <div className="social-icons">
