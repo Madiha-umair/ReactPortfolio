@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Zilla+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 /* Header styles */
 #header {
@@ -8,7 +12,12 @@
     padding: 1rem;
   }
   body{
-    font-family: 'Libre Baskerville', serif;
+    /*font-family: 'Libre Baskerville', serif;*/
+    /*font-family: 'Playfair Display', serif;*/
+    /*font-family: 'Roboto', sans-serif; */
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(to right, #f5fbbe, #c4fcf5);
   }
   h2 {
     margin-left: 4rem;
@@ -19,9 +28,6 @@
   #site-name a, #site-name-for-mobile a{
     text-decoration: none;
     color: #000;
-  }
-  #header{
-    background-color: #eceed5;
   }
   nav ul {
     display: flex;
@@ -65,6 +71,76 @@
     text-decoration: none;
     color: #eceed5;
   }
+
+
+
+
+
+/* CSS Animation Styles */
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Applying Animation to Elements */
+
+.about {
+  animation: scaleIn 1s ease-in-out;
+}
+
+#about-text-portion {
+  animation: scaleIn 1s ease-in-out;
+}
+
+h1 span {
+  animation: blink 1s infinite;
+}
+
+#about-text {
+  animation: scaleIn 1s ease-in-out;
+  animation-delay: 1s;
+}
+
+#about-text-cont {
+  animation: scaleIn 1s ease-in-out;
+  animation-delay: 1.5s;
+}
+
+.downloadbtn {
+  animation: scaleIn 1s ease-in-out;
+  animation-delay: 2s;
+}
+
+.social-icons {
+  animation: scaleIn 1s ease-in-out;
+  animation-delay: 2.5s;
+}
+
+#line {
+  animation: scaleIn 1s ease-in-out;
+  animation-delay: 3s;
+}
+
+
+
+
+
 
 /* Add margin to all images */
 img {
@@ -221,7 +297,7 @@ margin-top: 55px;
 #project_container li a,
 #project_container li p {
   display: none;
-  position: static; 
+  position:static;
 }
 #project_container li:hover a,
 #project_container li:hover p {

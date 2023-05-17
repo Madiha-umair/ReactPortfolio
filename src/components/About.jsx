@@ -6,9 +6,7 @@ export default function About() {
     <div>
         
       <div className="about">
-        <div id="profileimg">
-        <img src={myImage} alt="My Image" width= "300" height="380" />
-        </div>
+        
         <div id="about-text-portion">
         <h1>Hi, I'm <span>Madiha ...</span></h1>
         <h1> Full-Stack Developer!!</h1>
