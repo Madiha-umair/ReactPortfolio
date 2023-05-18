@@ -11,6 +11,9 @@ import nodejsImage from "../assets/images/NodeJS.jpg";
 import mongodbImage from "../assets/images/MongoDb.jpg";
 import figmaImage from "../assets/images/Figma.jpg";
 import aspImage from "../assets/images/Asp.Net.jpg";
+import mysqlImage from "../assets/images/MySql.jpg";
+import adobeImage from "../assets/images/AdobeXd.jpg";
+import expressImage from "../assets/images/Expressjs.jpg";
 
 
 export default function Skills() {
@@ -28,6 +31,9 @@ export default function Skills() {
     MongoDb: mongodbImage,
     Figma: figmaImage,
     "Asp.Net": aspImage,
+    MySql: mysqlImage,
+    AdobeXd: adobeImage,
+    Expressjs: expressImage
   };
 
   useEffect(() => {
@@ -52,8 +58,7 @@ export default function Skills() {
               <img
                 src={imageMap[skill]}
                 alt={skill}
-                width="100"
-                height="100"
+                
               />
             )}
             {skill}

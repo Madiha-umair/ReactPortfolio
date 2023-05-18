@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import haveinnImage from "../assets/images/HaveInn Hotel.png";
 import eventmanagementImage from "../assets/images/Event Management.png";
 import healthylifestyleImage from "../assets/images/Healthy Life Style.png";
-import giftshopImage from "../assets/images/Online Gift Shop.png";
+import giftshopImage from "../assets/images/Gift Basket Shop.png";
 
 export default function Project() {
     const [project, setProject] = useState([]);
@@ -10,7 +10,7 @@ export default function Project() {
       "HaveInn Hotel": haveinnImage,
       "Event Management": eventmanagementImage,
       "Healthy Life Style": healthylifestyleImage,
-      "Online Gift Shop": giftshopImage
+      "Gift Basket Shop": giftshopImage
     };
 
     useEffect(() => {
@@ -34,23 +34,23 @@ export default function Project() {
         <div>
         <h2>Projects</h2>
         <div id="project_container">
-        <ul>
+       
           {project.map((projectWork, index) => (
-            <li key={index}>
+            <div className="project_item" key={index}>
               {imageMap[projectWork.title] && (
                 <img
                   src={imageMap[projectWork.title]}
                   alt={projectWork.title}
-                  width="400"
-                  height="400"
                 />
               )}
+              <div className="project_details">
               <h3><a href={projectWork.source}>{projectWork.title}</a></h3>
               <p>{projectWork.content}</p>
               <a href={projectWork.source}>{projectWork.source}</a>
-            </li>
+              </div>
+            </div>
           ))}
-        </ul>
+        
         <hr id="line" />
         </div>
       </div>
