@@ -50,7 +50,6 @@
   position: relative;
   display: inline-block;
 }
-
 #aboutimg:hover::after,
 #projectimg:hover::after,
 #educationimg:hover::after,
@@ -82,28 +81,28 @@
   content: "Skill";
 }
 
-  /* Education styles */
-  ul {
-    margin: 0px;
-    padding: 0;
-    list-style: none;
-  }
+/* Education styles */
+ul {
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+}
 
-  /* Download button styles */
-  
-  .downloadbtn {
-    width: 170px;
-    height: 42px;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    font-weight: 600;
-    margin: 25px 0 30px 0;
-  }
-  .downloadbtn a {
-    text-decoration: none;
-    color: #eceed5;
-  }
+/* Download button styles */
+
+.downloadbtn {
+  width: 170px;
+  height: 42px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 25px 0 30px 0;
+}
+.downloadbtn a {
+  text-decoration: none;
+  color: #eceed5;
+}
 
 /* CSS Animation Styles */
 
@@ -128,11 +127,8 @@
 }
 
 /*********** Applying Animation to Elements **********/
-.about {
-  animation: scaleIn 1s ease-in-out;
-}
-#about-text-portion {
-  animation: scaleIn 1s ease-in-out;
+h1 {
+  animation: scaleIn 2s ease-in-out;
 }
 h1 span {
   animation: blink 2s infinite;
@@ -140,12 +136,16 @@ h1 span {
   color: #1d27eb;
 }
 #about-text {
-  animation: scaleIn 1s ease-in-out;
-  animation-delay: 1s;
+  animation: scaleIn 4s ease-in-out;
 }
 #about-text-cont {
-  animation: scaleIn 1s ease-in-out;
-  animation-delay: 1.5s;
+  animation: scaleIn 5s ease-in-out;
+}
+.downloadbtn{
+  animation: scaleIn 7s ease-in-out;
+}
+.social-icons {
+  animation: scaleIn 7s ease-in-out;
 }
 /************* Styles for about page ***************/
 .about {
@@ -354,18 +354,14 @@ footer p{
  .desktop-menu {
   display: flex;
   justify-content: flex-start;
-  
 }
-
 .desktop-menu li {
   margin-left: 4rem;
 }
-
 .desktop-menu a {
   text-decoration: none;
   font-size: 16px;
 }
-
 
 /* Style for the mobile menu toggle button */
 .mobile-menu-toggle {
@@ -437,7 +433,6 @@ align-items: center;
 
   #skill_container ul {
     grid-template-columns: repeat(7, 1fr);
-    
   }
   #skill_container li {
     padding: 0px; 
@@ -449,9 +444,6 @@ align-items: center;
     width: 40px;
     height: 40px;
   }
-
-
-
 
 /* Style for the mobile navigation menu */
 .mobile-menu {
@@ -466,17 +458,17 @@ align-items: center;
   z-index: 1;
 }
 .mobile-menu ul {
-list-style: none;
-display: block;
-margin: 0 0 0 17px;
-padding: 0;
-width: 150px;
+  list-style: none;
+  display: block;
+  margin: 0 0 0 17px;
+  padding: 0;
+  width: 150px;
 }
 .mobile-menu li {
-margin: 0;
-width: 80%;
-text-align: center;
-padding: 5px;
+  margin: 0;
+  width: 80%;
+  text-align: center;
+  padding: 5px;
 }
 .mobile-menu a {
   color: #eceed5;
@@ -503,7 +495,6 @@ padding: 5px;
   cursor: pointer;
   /*margin: 10px 0;*/
 }
-
 h2 {
   margin-left: 2rem;
 }
@@ -513,19 +504,6 @@ h2 {
   #qualification_container li {
   font-size: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /*********** Style for screen size upto 530*************/
@@ -602,14 +580,6 @@ h2 {
     margin: 0px auto 30px auto;
     border-top: 1px solid #333;
   }
-
-   
-  
-
-
-
-
- 
   #qualification_container ul{
     /*margin-left: 3rem;*/
     padding: 0;
