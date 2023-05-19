@@ -3,6 +3,8 @@ import aboutImage from '../assets/images/about.jpg';
 import projectsImage from '../assets/images/projects.jpg';
 import qualificationImage from '../assets/images/qualification.jpg';
 import skillsImage from '../assets/images/skills.jpg';
+import messageImage from '../assets/images/message.jpg';
+
 
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
@@ -49,6 +51,13 @@ export default function Header() {
             </div>
             </a>
           </li>
+          <li>
+            <a href="#contactme">
+            <div id="messageimg">
+            <img src={messageImage} alt="skills icon" width= "30" height="30" />
+            </div>
+            </a>
+          </li>
         </ul>
       </nav>
       {/* Display the toggle button and mobile menu for smaller screens */}
@@ -69,6 +78,9 @@ export default function Header() {
             </li>
             <li>
               <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#contactme">Send a message</a>
             </li>
           </ul>
         </nav>

@@ -4,6 +4,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
+import Contactme from "./components/Contactme";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -24,7 +25,8 @@ export default function App() {
           <section id="skills">
           <Skills/>
           </section>
-        </main>    
+        </main>   
+        <div id="contact"><Contactme/></div> 
         <Footer />
       </div>
   );

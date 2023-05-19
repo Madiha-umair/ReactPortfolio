@@ -33,6 +33,5 @@ export default function About() {
       </div>
       <hr id="line" />
     </div>
-    
   );
 }

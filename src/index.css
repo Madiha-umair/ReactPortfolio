@@ -90,7 +90,7 @@ ul {
 
 /* Download button styles */
 
-.downloadbtn {
+.downloadbtn, .contact-button {
   width: 170px;
   height: 42px;
   background-color: black;
@@ -99,9 +99,19 @@ ul {
   font-weight: 600;
   margin: 25px 0 30px 0;
 }
-.downloadbtn a {
+.downloadbtn a, #contactme a{
   text-decoration: none;
   color: #eceed5;
+}
+#contactme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+#contactme button{
+  background-color: #000;
+  padding: 15px;
 }
 
 /* CSS Animation Styles */
@@ -127,7 +137,7 @@ ul {
 }
 
 /*********** Applying Animation to Elements **********/
-h1 {
+.about{
   animation: scaleIn 2s ease-in-out;
 }
 h1 span {
@@ -309,7 +319,7 @@ margin-top: 55px;
 .project_details:last-child {
   margin-bottom: 100px;
 }
-.project_item img {
+.project_image img{
   margin: 10px 100px 60px 200px;
   /*border: 2px solid black ;*/
   border: none;
@@ -317,7 +327,7 @@ margin-top: 55px;
   width: 450px;
   height: 350px;
 }
-.project_item img:hover, #skill_container li img:hover{
+.project_image :hover, #skill_container li img:hover{
   transform: scale(1.1); /* Increase size by 10% */
 }
 .project_details {
@@ -336,8 +346,50 @@ margin-top: 55px;
 }
 .project_details p{
   font-weight: 400;
-  margin: 30px 200px 30px 0px;
+  margin: 30px 120px 30px 0px;
 }
+
+.project_skills ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.project_skills li {
+  position: relative;
+  list-style: none;
+  /*margin-right: 10px;*/
+  cursor: pointer;
+}
+
+.project_skills li img {
+  width: 40px; 
+  height: 40px; 
+  transition: opacity 0.3s ease;
+  margin: 0 10px 10px 0;
+}
+
+.project_skills li span {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  width: 60px; 
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.project_skills li:hover img {
+  opacity: 0.7; /* Adjust the opacity as per your preference */
+}
+
+.project_skills li:hover span {
+  display: block;
+}
+
 
 /********************** Styles for footer *******************/
 footer{
@@ -374,8 +426,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
-/*********** Style for screen size upto 1200*************/
-@media (max-width: 1200px) {
+/*********** Style for screen size upto 1050*************/
+@media (max-width: 1050px) {
 
  /* Projects styles */
  .project_details a,
@@ -388,7 +440,7 @@ align-items: center;
    text-decoration: none;
  }
  .project_details p {
-   font-weight: 500;
+    margin: 30px 60px 30px 0px;
  }
  .project_details{
   padding:20px;
@@ -397,12 +449,11 @@ align-items: center;
    border: none;
    box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);  /*Add box shadow */
    width: 350px;
-   margin-bottom: 30px;
-  
+   margin: 0 30px 30px 0;
    display: block;
    font-size: 13px;
  }
- .project_item img {
+ .project_image img{
   /*margin: 10px 100px 60px 200px;
   border: 2px solid black ;*/
   width: 350px;
@@ -418,7 +469,7 @@ align-items: center;
 }
 
 /*********** Style for screen size upto 767*************/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .about {
     margin: 0 130px 30px 130px;
     text-align: center;
@@ -585,7 +636,7 @@ h2 {
     padding: 0;
     display: block;
   }
-    #qualification_container li  {
+  #qualification_container li  {
     border: none;
     box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);  /*Add box shadow */
     width: 300px;
@@ -593,7 +644,7 @@ h2 {
     display: block;
     font-size: 15px;
     font-family: 'Zilla Slab', serif;
-  }
+}
   #qualification_container li p:first-child {
     font-weight: bold;
   }
@@ -609,5 +660,9 @@ h2 {
 @media (max-width: 480px) {
   #qualification_container li  {
     margin: 0 0 30px 60px;
+  }
+  #contactme button{
+    background-color: #000;
+    padding: 10px;
   }
 }
