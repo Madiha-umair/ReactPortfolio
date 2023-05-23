@@ -670,4 +670,7 @@ h2 {
     background-color: #000;
     padding: 10px;
   }
+  .project_item {
+      margin: 0 0px 30px 0;
+  }
 }
