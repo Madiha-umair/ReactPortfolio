@@ -11,7 +11,7 @@
   body{
     font-family: 'Playfair Display', serif;
     /*font-family: 'Lato', sans-serif;*/
-    background-image: linear-gradient(to right, #f5fbbe, #d2fff9);
+    background-image: linear-gradient(to right, #f5fbbe, #f5fefd);
   }
   h2 {
     margin-left: 4rem;
@@ -150,6 +150,7 @@ h1 span {
   font-size: 50px;
   color: #1d27eb;
 }
+/*
 #about-text {
   animation: scaleIn 4s ease-in-out;
 }
@@ -161,7 +162,7 @@ h1 span {
 }
 .social-icons {
   animation: scaleIn 7s ease-in-out;
-}
+}*/
 /************* Styles for about page ***************/
 .about {
   display: flex;
