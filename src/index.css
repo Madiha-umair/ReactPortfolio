@@ -46,14 +46,16 @@
 #aboutimg,
 #projectimg,
 #educationimg,
-#skillimg {
+#skillimg,
+#messageimg {
   position: relative;
   display: inline-block;
 }
 #aboutimg:hover::after,
 #projectimg:hover::after,
 #educationimg:hover::after,
-#skillimg:hover::after {
+#skillimg:hover::after,
+#messageimg:hover::after  {
   content: "";
   position: absolute;
   bottom: -20px;
@@ -79,6 +81,9 @@
 }
 #skillimg:hover::after {
   content: "Skill";
+}
+#messageimg:hover::after {
+  content: "Contact me";
 }
 
 /* Education styles */
@@ -659,7 +664,7 @@ h2 {
 /*********** Style for screen size upto 480*************/
 @media (max-width: 480px) {
   #qualification_container li  {
-    margin: 0 0 30px 60px;
+    margin: 0 0 30px 30px;
   }
   #contactme button{
     background-color: #000;
