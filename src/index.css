@@ -170,7 +170,7 @@ h1 span {
   justify-content:center;
   /*align-items: center;
   gap:200px;*/
-  margin-top: 30px;
+  margin-top: 0px;
 }
 #about-text, #about-text-cont{
   font-family: 'Lato', sans-serif;
