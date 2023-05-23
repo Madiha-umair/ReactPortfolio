@@ -80,7 +80,7 @@ export default function Header() {
               <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="#contactme">Send a message</a>
+              <a href="#contactme">Contact me</a>
             </li>
           </ul>
         </nav>
