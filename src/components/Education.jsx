@@ -12,8 +12,8 @@ export default function Education() {
           let each_education = databaseTables[10].data.map((item) => ({
             field: item.field,
             degree: item.degree,
-            institute: item.institute,
             location: item.location,
+            institute: item.institute,
             started_at: item.started_at,
             ended_at: item.ended_at
           }));
@@ -30,9 +30,9 @@ export default function Education() {
             <li key={index}>
              <p> {qualification.field}</p>
              <p> {qualification.degree}</p>
-             <p> {qualification.location}</p>
-             <p> {qualification.started_at} - {qualification.ended_at}</p>
              <p> {qualification.institute}</p>
+             <p> {qualification.started_at} - {qualification.ended_at}</p>
+             <p> {qualification.location}</p>
            </li>
           ))}
           <hr id="line" />

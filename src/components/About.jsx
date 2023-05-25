@@ -16,9 +16,6 @@ export default function About() {
             </a>
           </button>
           <div className="social-icons">
-            <a href="https://www.facebook.com">
-              <i className="fa fa-facebook"></i>
-            </a>
             <a href="https://www.twitter.com">
               <i className="fa fa-twitter"></i>
             </a>
@@ -27,6 +24,9 @@ export default function About() {
             </a>
             <a href="https://www.instagram.com">
               <i className="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.github.com">
+              <i className="fa fa-github"></i>
             </a>
           </div>
         </div>
