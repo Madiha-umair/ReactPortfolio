@@ -31,7 +31,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <hr id="line" />
+      <hr class="line" />
     </div>
   );
 }

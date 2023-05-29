@@ -313,6 +313,7 @@ ul {
   color: #000;
   transition: color 0.4s ease;
   animation: colorChange 10s infinite;
+  margin-bottom: 40px;
 }
 
 /*
@@ -350,12 +351,15 @@ ul {
 }
 
 /* Horizontal line */
-#line {
+#line, .line {
   width: 500px;
-  margin: 50px 100px;
   border: none;
   border-top: 2px solid #333;
   display: block;
+}
+
+#line{
+  margin: 50px 100px;
 }
 
 /************ Styles for qualification **************/
