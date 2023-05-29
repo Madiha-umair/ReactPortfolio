@@ -49,9 +49,13 @@
 ,{"type":"table","name":"projects","database":"laravel-blade-cms","data":
 [
 {"id":"7","title":"Healthy Life Style","live":null,"source":"https:\/\/github.com\/Madiha-umair\/HealthyLifeStyle","slug":"click_here_For_HealthyLifeStyle","image":"projects\/aSESU8oGHqxPx8NKQeUAFUciXHor0bm8XwciSEKv.png","content":"A simple yet powerful healthy lifestyle application built using Pug, CSS, JavaScript, and Node.js. The website leverages the power of two APIs, allowing users to access a wealth of information on various exercises and easily calculate their BMI and calorie requirements.","user_id":"3","created_at":"2023-04-19 07:19:33","updated_at":"2023-04-19 07:48:36"},
-{"id":"8","title":"Event Management","live":null,"source":"https:\/\/github.com\/Madiha-umair\/EventManagementProject","slug":"Click_Here_For_EventManagementProject","image":"projects\/mwh952Q3mTMQCURresaSWfsE7iuT5q592uFwNN0F.png","content":"An innovative event management application built using PHP, CSS, HTML, and MySQL. This dynamic website offers two interfaces - a user-friendly front-end for attendees to browse events & a comprehensive back-end.","user_id":"3","created_at":"2023-04-19 07:20:56","updated_at":"2023-04-19 07:45:34"},
+{"id":"8","title":"Event Management","live":null,"source":"https:\/\/github.com\/Madiha-umair\/EventManagementProject","slug":"Click_Here_For_EventManagementProject","image":"projects\/mwh952Q3mTMQCURresaSWfsE7iuT5q592uFwNN0F.png","content":"An innovative Full Stack event management application built using PHP, CSS, HTML, and MySQL. This dynamic website offers two interfaces - a user-friendly front-end for attendees to browse events & a comprehensive back-end.","user_id":"3","created_at":"2023-04-19 07:20:56","updated_at":"2023-04-19 07:45:34"},
 {"id":"5","title":"Gift Basket Shop","live":null,"source":"https:\/\/github.com\/Madiha-umair\/GiftShop\/tree\/master\/GiftShop","slug":"Click_To_See_GiftBasketShop","image":"projects\/FIABlkfnZAqFfLNeF6NpBfVK5IGlzerfJ53VFHS8.png","content":"A dynamic online gift basket shop built using ASP.NET, Entity Framework, and code first techniques.It incorporates efficient M-M and 1-Mrelationships to enhance data organization and retrieval.Users can effortlessly perform CRUD operations on all tables. With a visually appealing interface, users can explore a wide variety of gift baskets and items, accompanied by captivating images.","user_id":"2","created_at":"2023-04-14 22:02:51","updated_at":"2023-04-19 07:58:08"},
-{"id":"6","title":"HaveInn Hotel","live":null,"source":"https:\/\/github.com\/Madiha-umair\/HaveInn_Hotel","slug":"ClickToSee_HaveInnHotel","image":"projects\/IkWIbvY0ljPwfkjL1crQYlSPw6Yzw63WoamNctRr.png","content":"A cutting-edge hotel management website application built using Node.js, CSS, Pug, and MongoDB.","user_id":"2","created_at":"2023-04-18 22:52:15","updated_at":"2023-04-19 07:53:37"}
+{"id":"6","title":"HaveInn Hotel","live":null,"source":"https:\/\/github.com\/Madiha-umair\/HaveInn_Hotel","slug":"ClickToSee_HaveInnHotel","image":"projects\/IkWIbvY0ljPwfkjL1crQYlSPw6Yzw63WoamNctRr.png","content":"A cutting-edge hotel management website application built using Node.js, CSS, Pug, and MongoDB.","user_id":"2","created_at":"2023-04-18 22:52:15","updated_at":"2023-04-19 07:53:37"},
+{"id":"9","title":"Portfolio-V2","live":null,"source":"https:\/\/github.com\/Madiha-umair\/Portfolio-v2","slug":"ClickToSee_Portfolio","image":"projects\/IkWIbvY0ljPwfkjL1crQYlSPw6Yzw63WoamNctRr.png","content":"A versatile Full Stack application leverages Laravel on the backend and Express, React, Node.js, CSS, and HTML on the frontend. It offers seamless integration and customization options, empowering users to create and manage their own portfolios with ease. ","user_id":"2","created_at":"2023-04-18 22:52:15","updated_at":"2023-04-19 07:53:37"},
+{"id":"10","title":"Portfolio-Backend-CMS","live":null,"source":"https:\/\/github.com\/Madiha-umair\/Portfolio-v2","slug":"ClickToSee_Portfolio_LogIn","image":"projects\/IkWIbvY0ljPwfkjL1crQYlSPw6Yzw63WoamNctRr.png","content":"A dynamic Backend application and content management system built with Laravel, CSS, and MySQL.This project empowers users to efficiently manage and customize their content with ease. Leveraging the power of Laravel, it offers seamless integration, robust database management, and an intuitive user interface.","user_id":"2","created_at":"2023-04-18 22:52:15","updated_at":"2023-04-19 07:53:37"},
+{"id":"11","title":"Web Evaluator","live":null,"source":"https:\/\/github.com\/Madiha-umair\/WebEvaluator-PetProject","slug":"ClickToSee_WebEvaluator","image":"projects\/IkWIbvY0ljPwfkjL1crQYlSPw6Yzw63WoamNctRr.png","content":"A simple yet powerful JavaScript application focused on Regex patterns and client-side form authentication. This project harnesses the strength of Regex to efficiently validate and manipulate input data, ensuring data integrity.","user_id":"2","created_at":"2023-04-18 22:52:15","updated_at":"2023-04-19 07:53:37"}
+
 ]
 }
 ,{"type":"table","name":"project_skill","database":"laravel-blade-cms","data":
@@ -70,7 +74,20 @@
 {"id":"12","project_id":"8","skill_id":"7","created_at":null,"updated_at":null},
 {"id":"13","project_id":"8","skill_id":"10","created_at":null,"updated_at":null},
 {"id":"14","project_id":"8","skill_id":"20","created_at":null,"updated_at":null},
-{"id":"15","project_id":"8","skill_id":"19","created_at":null,"updated_at":null}
+{"id":"15","project_id":"8","skill_id":"19","created_at":null,"updated_at":null},
+{"id":"16","project_id":"9","skill_id":"9","created_at":null,"updated_at":null},
+{"id":"17","project_id":"9","skill_id":"15","created_at":null,"updated_at":null},
+{"id":"18","project_id":"9","skill_id":"10","created_at":null,"updated_at":null},
+{"id":"19","project_id":"9","skill_id":"20","created_at":null,"updated_at":null},
+{"id":"21","project_id":"9","skill_id":"12","created_at":null,"updated_at":null},
+{"id":"22","project_id":"9","skill_id":"1","created_at":null,"updated_at":null},
+{"id":"24","project_id":"10","skill_id":"10","created_at":null,"updated_at":null},
+{"id":"25","project_id":"10","skill_id":"20","created_at":null,"updated_at":null},
+{"id":"26","project_id":"10","skill_id":"11","created_at":null,"updated_at":null},
+{"id":"27","project_id":"10","skill_id":"19","created_at":null,"updated_at":null},
+{"id":"28","project_id":"11","skill_id":"15","created_at":null,"updated_at":null},
+{"id":"29","project_id":"11","skill_id":"10","created_at":null,"updated_at":null},
+{"id":"30","project_id":"11","skill_id":"20","created_at":null,"updated_at":null}
 ]
 }
 ,{"type":"table","name":"qualifications","database":"laravel-blade-cms","data":

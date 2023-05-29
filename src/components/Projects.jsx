@@ -3,6 +3,9 @@ import haveinnImage from "../assets/images/HaveInn Hotel.png";
 import eventmanagementImage from "../assets/images/Event Management.png";
 import healthylifestyleImage from "../assets/images/Healthy Life Style.png";
 import giftshopImage from "../assets/images/Gift Basket Shop.png";
+import portfoliov2Image from "../assets/images/Portfolio-V2.png";
+import portfoliocmsImage from "../assets/images/Portfolio-Backend-CMS.png";
+import webevaluatorImage from "../assets/images/Web Evaluator.png";
 import aspImage from "../assets/images/Asp.Net.jpg";
 import htmlImage from "../assets/images/Html.jpg";
 import cssImage from "../assets/images/CSS.jpg";
@@ -25,6 +28,9 @@ export default function Project() {
     "Event Management": eventmanagementImage,
     "Healthy Life Style": healthylifestyleImage,
     "Gift Basket Shop": giftshopImage,
+    "Portfolio-V2": portfoliov2Image,
+    "Portfolio-Backend-CMS": portfoliocmsImage,
+    "Web Evaluator": webevaluatorImage,
     "Asp.Net": aspImage,
     "Html": htmlImage,
     "CSS": cssImage,
@@ -40,13 +46,13 @@ export default function Project() {
     "AdobeXd": adobeImage,
     "Expressjs": expressImage
   };
-  
+
   useEffect(() => {
     const getProject = async () => {
       let response = await fetch("./laravel-blade-cms.json");
       let databaseTables = await response.json();
       console.log(databaseTables);
-  
+
       const projectsTable = databaseTables.find(
         (table) => table.name === "projects"
       );
@@ -56,7 +62,7 @@ export default function Project() {
       const skillsTable = databaseTables.find(
         (table) => table.name === "skills"
       );
-  
+
       if (projectsTable && projectSkillTable && skillsTable) {
         let each_Project = projectsTable.data.map((item) => {
           const skillIds = projectSkillTable.data
@@ -75,7 +81,7 @@ export default function Project() {
             skills: skills,
           };
         });
-  
+
         setProject(each_Project);
         console.log(each_Project);
       }
@@ -90,12 +96,12 @@ export default function Project() {
         {project.map((projectWork, index) => (
           <div className="project_item" key={index}>
             <div className="project_image">
-            {imageMap[projectWork.title] && (
-              <img
-                src={imageMap[projectWork.title]}
-                alt={projectWork.title}
-              />
-            )}
+              {imageMap[projectWork.title] && (
+                <img
+                  src={imageMap[projectWork.title]}
+                  alt={projectWork.title}
+                />
+              )}
             </div>
             <div className="project_details">
               <h3>
@@ -116,8 +122,10 @@ export default function Project() {
                   ))}
                 </ul>
               </div>
-            <a href={projectWork.source}>{projectWork.source}</a>
-          </div>
+              <div className="project_code">
+                <a href={projectWork.source}>{projectWork.source}</a>
+              </div>
+            </div>
           </div>
         ))}
         <hr id="line" />
