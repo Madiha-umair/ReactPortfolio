@@ -12,7 +12,7 @@
 body {
   font-family: 'Playfair Display', serif;
   /*font-family: 'Lato', sans-serif;*/
-  background: linear-gradient(45deg, #f5fbbe, #f5ed85, #f3963f);
+  background: linear-gradient(90deg, #f5fbbe, #f5ed85, #f3963f);
   /*background: linear-gradient(45deg, #f58738, #f5ed85, #c4fdef);*/
   background-size: 200% 200%;
   animation: gradientAnimation 10s ease infinite;
@@ -544,7 +544,7 @@ h3 {
   display: none;
   width: 60px;
   padding: 5px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
   font-size: 14px;
   text-align: center;
