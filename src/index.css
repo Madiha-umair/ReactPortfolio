@@ -15,7 +15,7 @@ body {
   background: linear-gradient(90deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
   /*background: linear-gradient(45deg,#f5fbbe,#ffffff,#b582e4);*/
   background-size: 200% 200%;
-  animation: gradientAnimation 10s ease infinite;
+  animation: gradientAnimation 14s ease infinite;
 }
 
 @keyframes gradientAnimation {

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import playpalImage from "../assets/images/Playpal App.png";
 import haveinnImage from "../assets/images/HaveInn Hotel.png";
 import eventmanagementImage from "../assets/images/Event Management.png";
 import healthylifestyleImage from "../assets/images/Healthy Life Style.png";
@@ -24,6 +25,7 @@ import expressImage from "../assets/images/Expressjs.jpg";
 export default function Project() {
   const [project, setProject] = useState([]);
   const imageMap = {
+    "Playpal App": playpalImage,
     "HaveInn Hotel": haveinnImage,
     "Event Management": eventmanagementImage,
     "Healthy Life Style": healthylifestyleImage,
